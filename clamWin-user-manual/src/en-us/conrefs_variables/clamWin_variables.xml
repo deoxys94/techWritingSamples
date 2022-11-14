@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="clamWin_variables" xml:lang="en-us">
+  <title>ClamWin Product Variables</title>
+  <refbody>
+    <section>
+      <draft-comment>Key value; ClamWinVARS</draft-comment>
+      <table frame="all" rowsep="1" colsep="1" id="table_atc_ggd_nvb">
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c4" colnum="3" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Variable</p>
+              </entry>
+              <entry>
+                <p>Value</p>
+              </entry>
+              <entry>
+                <p>Sample</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>full_product_name</entry>
+              <entry><ph id="full_product_name">ClamWin Free Antivirus</ph></entry>
+              <entry><ph conkeyref="ClamWinVARS/full_product_name"/></entry>
+            </row>
+            <row>
+              <entry>short_product_name</entry>
+              <entry><ph id="short_product_name">ClamWin</ph></entry>
+              <entry><ph conkeyref="ClamWinVARS/short_product_name"/></entry>
+            </row>
+            <row>
+              <entry>av_engine_name</entry>
+              <entry><ph id="av_engine_name">ClamAV</ph></entry>
+              <entry><ph conkeyref="ClamWinVARS/av_engine_name"/></entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installation">
+    <title>Installation</title>
+    <taskbody>
+        <context id="context_ny2_45n_nvb"/>
+        <steps id="steps_pj4_trn_nvb">
+            <step>
+                <cmd>Download the installer program at <xref href="https://clamwin.com/content/view/18/46/" format="html" scope="external">https://clamwin.com/content/view/18/46/</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Open the installation file and follow the on-screen instructions.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>In the <wintitle>Select Installation Options</wintitle> screen, select one of the available options and click <uicontrol>Next</uicontrol></cmd>
+                        <info>
+                            <ul id="ul_z4b_byn_nvb">
+                                <li>
+                                    <p><uicontrol>Anyone who uses this computer (all users)</uicontrol></p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>Only me</uicontrol></p>
+                                </li>
+                            </ul>
+                            <note type="tip">
+                                <p>Selecting <uicontrol>Anyone who uses this computer (all users)</uicontrol> is recommended.</p>
+                            </note>
+                        </info>
+                    </substep>
+                    <substep id="substep_outlook_integration">
+                        <cmd>In the <wintitle>Select Components</wintitle> screen, select one of the available options and click <uicontrol>Next</uicontrol>.</cmd>
+                        <info>
+                            <ul id="choices_n3y_nwn_nvb">
+                                <li>
+                                    <p><uicontrol>Typical Installation</uicontrol></p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>Custom Installation</uicontrol></p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>Full Installation</uicontrol></p>
+                                </li>
+                            </ul>
+                            <note type="tip">
+                                <p>To enable Microsoft Outlook integration, select <uicontrol>Typical Installation</uicontrol> or <uicontrol>Full Installation</uicontrol>.</p>
+                            </note>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>In the <wintitle>Select Additional Tasks</wintitle> screen, select <uicontrol>Download Virus Database Files</uicontrol> and click <uicontrol>Next</uicontrol>.</cmd>
+                        <info>
+                            <note type="important">
+                                <p>If you connect to the internet using a proxy, do not select <uicontrol>Download Virus Database Files</uicontrol>.</p>
+                            </note>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Review all your settings and click <uicontrol>Install</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <result id="result_uz5_rxn_nvb"><ph conkeyref="ClamWinVARS/full_product_name"/> installs in the specified folder and a virus database update starts.</result>
+    </taskbody>
+</task>

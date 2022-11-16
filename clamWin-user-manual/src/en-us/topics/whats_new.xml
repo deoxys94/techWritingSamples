@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="whats_new">
+    <title>What's New?</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph>
+            <ph conkeyref="ClamWinVARS/clamwin_version">version</ph> includes the following new features and enhancements.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_mnx_qlk_nvb">
+            <title>Features and enhancements</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="3*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Feature</p>
+                        </entry>
+                        <entry>
+                            <p>Description</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p><ph conkeyref="ClamWinVARS/av_engine_name"/> engine update</p>
+                        </entry>
+                        <entry>
+                            <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> now uses <ph conkeyref="ClamWinVARS/av_engine_name">clamav</ph> <ph conkeyref="ClamWinVARS/clamav_version">clamav_version</ph> as the antimalware engine.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Bug fixes</p>
+                        </entry>
+                        <entry>
+                            <p>Fixed Virus database updates.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

@@ -2,4 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Getting Started</title>
+    <topicref href="../topics/getting_started.xml">
+        <topicref href="../topics/installation.xml"></topicref>
+    </topicref>
 </map>

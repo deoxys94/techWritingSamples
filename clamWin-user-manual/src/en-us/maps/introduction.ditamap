@@ -2,4 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Introduction</title>
+    <topicref href="../topics/introduction.xml"></topicref>
+    <topicref href="../topics/whats_new.xml"></topicref>
+    <topicref href="../topics/system_requirements.xml"></topicref>
 </map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="getting_started">
+    <title>Getting Started</title>
+    <taskbody>
+        <steps id="steps_mqx_dpk_nvb">
+            <step>
+                <cmd>Download and install <ph conkeyref="ClamWinVARS/full_product_name"/>.</cmd>
+                <info>
+                    <p>For more information, see <xref href="installation.xml"/>.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Enable Outlook integration.</cmd>
+                <info>
+                    <p>For more information, see <xref href="installation.xml#installation/substep_outlook_integration">Installation</xref>.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Update the virus database.</cmd>
+            </step>
+            <step>
+                <cmd>(Optional) Configure scheduled virus scans.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

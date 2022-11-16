@@ -1,9 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_dx5_l2d_nvb">
-    <title>Introduction</title>
-    <shortdesc></shortdesc>
-    <conbody>
-        <p></p>
-    </conbody>
+
+<concept id="Introduction" xml:lang="en-us">
+ <title>Introduction</title>
+ <conbody>
+  <p><ph conkeyref="ClamWinVARS/full_product_name"/> is a free and open source anti-virus solution for Microsoft Windows. <ph conkeyref="ClamWinVARS/full_product_name"/> uses the <ph conkeyref="ClamWinVARS/av_engine_name"/> engine to provide malware detection capabilities without affecting system performance.</p>
+  <note type="important">
+   <p><ph conkeyref="ClamWinVARS/short_product_name"/> Antivirus does not include real-time monitoring. You need to <b>manually</b> scan files and folders to detect threats.</p>
+  </note>
+  <table frame="all" rowsep="1" colsep="1" id="table_ufs_2xj_nvb">
+   <title>Features and benefits</title>
+   <tgroup cols="2">
+    <colspec colname="c3" colnum="1" colwidth="1*"/>
+    <colspec colname="c4" colnum="2" colwidth="3*"/>
+    <tbody>
+     <row>
+      <entry>
+       <p>Antimalware</p>
+      </entry>
+      <entry>
+       <p><ph conkeyref="ClamWinVARS/full_product_name"/> detects and cleans viruses, worms, trojans, mobile malware and other threats.</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Regular updates</p>
+      </entry>
+      <entry>
+       <p><ph conkeyref="ClamWinVARS/full_product_name"/> gets automatic virus database updates over the internet.</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Microsoft Outlook integration</p>
+      </entry>
+      <entry>
+       <p><ph conkeyref="ClamWinVARS/full_product_name"/> includes a Microsoft Outlook add-on to scan incoming and outgoing email messages.</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Phishing detection</p>
+      </entry>
+      <entry><ph conkeyref="ClamWinVARS/full_product_name"/> detects suspicious hyperlinks when scanning HTML content.</entry>
+     </row>
+     <row>
+      <entry>
+       <p>Scheduled scanning</p>
+      </entry>
+      <entry><ph conkeyref="ClamWinVARS/full_product_name"/> allows you to start system scans at a defined time.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
 </concept>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+<concept id="system_requirements" xml:lang="en-us">
+ <title>System Requirements</title>
+ <conbody>
+  <table frame="all" rowsep="1" colsep="1" id="table_edr_zmk_nvb">
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1*"/>
+    <colspec colname="c2" colnum="2" colwidth="3*"/>
+    <thead>
+     <row>
+      <entry>
+       <p>Requirement</p>
+      </entry>
+      <entry>
+       <p>Minimum Specifications</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>
+       <p>Operating system</p>
+      </entry>
+      <entry>
+       <ul id="ul_bnc_gnk_nvb">
+        <li>
+         <p>Windows 10 </p>
+        </li>
+        <li>
+         <p>Windows 8</p>
+        </li>
+        <li>
+         <p>Windows 7</p>
+        </li>
+        <li>
+         <p>Windows Vista</p>
+        </li>
+        <li>
+         <p>Windows XP</p>
+        </li>
+        <li>
+         <p>Windows Me</p>
+        </li>
+        <li>
+         <p>Windows 2000</p>
+        </li>
+        <li>
+         <p>Windows 98</p>
+        </li>
+        <li>
+         <p>Windows Server 2012</p>
+        </li>
+        <li>
+         <p>Windows Server 2008</p>
+        </li>
+        <li>
+         <p>Windows Server 2003</p>
+        </li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Disk space</p>
+      </entry>
+      <entry>
+       <p>1.0 GB</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Internet connection</p>
+      </entry>
+      <entry>
+       <p>An internet connection is required for automatic updates.</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

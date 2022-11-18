@@ -20,7 +20,7 @@
         <!-- Key definitions -->
         <keydef keys="ClamWinVARS" href="conrefs_variables/clamWin_variables.xml"></keydef>
         <!-- License and other things -->
-        <notices href="../../../docLicense/pdf_creativeCommons_en_boilerplate.xml"></notices>
+        <notices href="additional/docLicense/pdf_creativeCommons_en_boilerplate.xml"></notices>
     </frontmatter>
     <!-- Chapters or parts -->
     <chapter format="ditamap" href="maps/introduction.ditamap"></chapter>

@@ -3,6 +3,11 @@
 <concept id="main_screen">
     <title>Main Screen</title>
     <conbody>
+        <p>The main screen allows you to perform system scans, run virus database updates, and configure settings such as scheduled virus scans.</p>
+        <fig>
+            <image href="../images/main_screen.png" width="500" alt="ClamWin's Main Screen"></image>
+        </fig>
+        <p>You can open the main console from the start menu, or the windows Task Bar.</p>
         <p>The following table describes the actions available in <ph conkeyref="ClamWinVARS/short_product_name"/>'s main screen</p>
         <table frame="all" rowsep="1" colsep="1" id="table_ywy_3c4_nvb">
             <tgroup cols="2">
@@ -20,12 +25,45 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry/>
-                        <entry/>
+                        <entry><p>Update virus database files.</p></entry>
+                        <entry><p>Click <uicontrol>Starts Internet Update</uicontrol> (<image href="../images/manual_update_button.png" width="16"></image>) to manually update <ph conkeyref="ClamWinVARS/short_product_name"></ph>'s virus database files.</p>
+                        <p>For more information see (link to topic)</p></entry>
                     </row>
                     <row>
-                        <entry/>
-                        <entry/>
+                        <entry><p>Scan for virus and malware</p></entry>
+                        <entry>
+                            <note type="important">
+                                <p>By default, <ph conkeyref="ClamWinVARS/short_product_name"></ph> does not clean any virus or malware found during a scan.</p>
+                                <p>For more information, see [link to settings]</p>
+                            </note>
+                            <p>
+                                <ph conkeyref="ClamWinVARS/short_product_name"></ph> allows you to perform scans of files, folders and programs executing in your computer.
+                            </p>
+                            <ul>
+                                <li>
+                                    <p><b>Full system scan</b>: Select the drive where your operating system is installed and click <uicontrol>Scan Selected Files for Virus</uicontrol> (<image href="../images/scan_file_button.png" width="16"></image>)</p>
+                                    <note type="tip"><p>Windows is typically installed in the C: drive.</p></note>
+                                </li>
+                                <li>
+                                    <p><b>Scan a file, folder, or external drive</b>: Select the file or folder you want to scan and click <uicontrol>Scan Selected Files for Virus</uicontrol> (<image href="../images/scan_file_button.png" width="16"></image>)</p>
+                                </li>
+                                <li>
+                                    <p><b>Scan process and programs</b>: bla bla bla (<image href="../images/scan_memory_button.png" width="16"></image>)</p>
+                                </li>
+                            </ul>
+                            <p>For more information about scanning for viruses, see [link to topic]</p>
+                    </entry>
+                    </row>
+                    <row>
+                        <entry><p>Check for program updates</p></entry>
+                        <entry><p>Go to <menucascade><uicontrol>Help</uicontrol><uicontrol>Check Latest Version</uicontrol></menucascade> to verify if you have the latest version of <ph conkeyref="ClamWinVARS/short_product_name"></ph></p></entry>
+                    </row>
+                    <row>
+                        <entry><p>Open the settings screen</p></entry>
+                        <entry>
+                            <p>Configure all of <ph conkeyref="ClamWinVARS/short_product_name"></ph>'s settings, such as scanning options, email alerts or scheduled scans.</p>
+                            <p>For more information, see [link to topic]</p>
+                        </entry>
                     </row>
                 </tbody>
             </tgroup>

@@ -6,7 +6,7 @@
  <conbody>
   <p><ph conkeyref="ClamWinVARS/full_product_name"/> is a free and open source anti-virus solution for Microsoft Windows. <ph conkeyref="ClamWinVARS/full_product_name"/> uses the <ph conkeyref="ClamWinVARS/av_engine_name"/> engine to provide malware detection capabilities without affecting system performance.</p>
   <note type="important">
-   <p><ph conkeyref="ClamWinVARS/short_product_name"/> Antivirus does not include real-time monitoring. You need to <b>manually</b> scan files and folders to detect threats.</p>
+   <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_ms5_wgj_4vb"/>
   </note>
   <table frame="all" rowsep="1" colsep="1" id="table_ufs_2xj_nvb">
    <title>Features and benefits</title>

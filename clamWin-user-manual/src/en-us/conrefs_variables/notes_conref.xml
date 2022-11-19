@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="notes_conref">
+    <title>Notes Conref</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <note>
+            <p id="p_ms5_wgj_4vb"><ph conkeyref="ClamWinVARS/short_product_name"/> Antivirus does not include real-time monitoring. You need to <b>manually</b> scan files and folders to detect threats.</p>
+        </note>
+        <note>
+            <p id="p_hcd_jlj_4vb">By default, <ph conkeyref="ClamWinVARS/short_product_name"/> does not clean any virus or malware found during a scan.</p>
+            <p id="p_vkg_jlj_4vb">For more information, see [link to settings]</p>
+        </note>
+        <note>
+            <p id="p_k2x_4rj_4vb">Windows is typically installed in the C: drive.</p>
+        </note>
+    </conbody>
+</concept>

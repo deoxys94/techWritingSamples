@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="full_system_scan">
+    <title>Full System Scan</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context id="context_lfk_1tj_4vb">
+            <note type="important">
+                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_hcd_jlj_4vb"/>
+                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_vkg_jlj_4vb"/>
+            </note>
+        </context>
+        <steps id="steps_mv4_3rj_4vb">
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_bzn_rtj_4vb"/>
+            </step>
+            <step>
+                <cmd>Select the drive where your operating system is installed.</cmd>
+                <info>
+                    <note type="tip">
+                        <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_k2x_4rj_4vb"/>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd id="cmd_tpp_stj_4vb">Click <ph conkeyref="ClamWinVARS/mainui_scan_files"/>.</cmd>
+                <stepresult>
+                    <p><ph conkeyref="ClamWinVARS/short_product_name"/> starts scanning your system drive.</p>
+                </stepresult>
+            </step>
+            <step importance="optional">
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_ccb_5tj_4vb"/>
+            </step>
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_npz_5tj_4vb"/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

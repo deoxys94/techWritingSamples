@@ -7,7 +7,7 @@
         <fig>
             <image href="../images/main_screen.png" width="500" alt="ClamWin's Main Screen"></image>
         </fig>
-        <p>You can open the main console from the start menu, or the windows Task Bar.</p>
+        <p>You can open the main console from the start menu, or the Windows task bar.</p>
         <p>The following table describes the actions available in <ph conkeyref="ClamWinVARS/short_product_name"/>'s main screen</p>
         <table frame="all" rowsep="1" colsep="1" id="table_ywy_3c4_nvb">
             <tgroup cols="2">
@@ -25,43 +25,47 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry><p>Update virus database files.</p></entry>
-                        <entry><p>Click <uicontrol>Starts Internet Update</uicontrol> (<image href="../images/manual_update_button.png" width="16"></image>) to manually update <ph conkeyref="ClamWinVARS/short_product_name"></ph>'s virus database files.</p>
+                        <entry><p>Update virus database files</p></entry>
+                        <entry><p>Click <ph conkeyref="ClamWinVARS/mainui_update_bd"/> to manually update <ph conkeyref="ClamWinVARS/short_product_name"/>'s virus database files.</p>
                         <p>For more information see (link to topic)</p></entry>
                     </row>
                     <row>
                         <entry><p>Scan for virus and malware</p></entry>
                         <entry>
                             <note type="important">
-                                <p>By default, <ph conkeyref="ClamWinVARS/short_product_name"></ph> does not clean any virus or malware found during a scan.</p>
-                                <p>For more information, see [link to settings]</p>
+                                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_hcd_jlj_4vb"/>
+                                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_vkg_jlj_4vb"/>
                             </note>
                             <p>
-                                <ph conkeyref="ClamWinVARS/short_product_name"></ph> allows you to perform scans of files, folders and programs executing in your computer.
-                            </p>
+                                <ph conkeyref="ClamWinVARS/short_product_name"/> allows you to perform scans of files, folders and programs executing in your computer. </p>
                             <ul>
                                 <li>
-                                    <p><b>Full system scan</b>: Select the drive where your operating system is installed and click <uicontrol>Scan Selected Files for Virus</uicontrol> (<image href="../images/scan_file_button.png" width="16"></image>)</p>
-                                    <note type="tip"><p>Windows is typically installed in the C: drive.</p></note>
+                                    <p><b>Full system scan</b>: Select the drive where your operating system is installed and click <ph conkeyref="ClamWinVARS/mainui_scan_files"/>.</p>
+                                    <note type="tip">
+                                        <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_k2x_4rj_4vb"/>
+                                    </note>
                                 </li>
                                 <li>
-                                    <p><b>Scan a file, folder, or external drive</b>: Select the file or folder you want to scan and click <uicontrol>Scan Selected Files for Virus</uicontrol> (<image href="../images/scan_file_button.png" width="16"></image>)</p>
+                                    <p><b>Scan a file, folder, or external drive</b>: Select the file or folder you want to scan and click <ph conkeyref="ClamWinVARS/mainui_scan_files"/>.</p>
                                 </li>
                                 <li>
-                                    <p><b>Scan process and programs</b>: bla bla bla (<image href="../images/scan_memory_button.png" width="16"></image>)</p>
+                                    <p><b>Scan computer memory</b>: Click <ph conkeyref="ClamWinVARS/mainui_scan_ram"/>.</p>
                                 </li>
                             </ul>
-                            <p>For more information about scanning for viruses, see [link to topic]</p>
+                            <p>For more information about scanning for viruses, see <xref href="scan_computer.xml"/>.</p>
                     </entry>
                     </row>
                     <row>
                         <entry><p>Check for program updates</p></entry>
-                        <entry><p>Go to <menucascade><uicontrol>Help</uicontrol><uicontrol>Check Latest Version</uicontrol></menucascade> to verify if you have the latest version of <ph conkeyref="ClamWinVARS/short_product_name"></ph></p></entry>
+                        <entry><p>Go to <menucascade>
+                                    <uicontrol>Help</uicontrol>
+                                    <uicontrol>Check Latest Version</uicontrol>
+                                </menucascade> to verify if you have the latest version of <ph conkeyref="ClamWinVARS/short_product_name"/></p></entry>
                     </row>
                     <row>
                         <entry><p>Open the settings screen</p></entry>
                         <entry>
-                            <p>Configure all of <ph conkeyref="ClamWinVARS/short_product_name"></ph>'s settings, such as scanning options, email alerts or scheduled scans.</p>
+                            <p>Configure all of <ph conkeyref="ClamWinVARS/short_product_name"/>'s settings, such as scanning options, email alerts or scheduled scans.</p>
                             <p>For more information, see [link to topic]</p>
                         </entry>
                     </row>

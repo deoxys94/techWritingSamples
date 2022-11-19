@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="scan_conref">
+    <title>Scan Conref</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step id="step_ksy_qtj_4vb">
+                <cmd id="cmd_bzn_rtj_4vb">Open <ph conkeyref="ClamWinVARS/short_product_name"/></cmd>
+            </step>
+            <step>
+                <cmd id="cmd_ccb_5tj_4vb">Save the scan results to a text file by clicking <uicontrol>Save Report</uicontrol> in the <wintitle>Scan Complete</wintitle> window.</cmd>
+            </step>
+            <step>
+                <cmd id="cmd_npz_5tj_4vb">In the <wintitle>Scan Complete</wintitle> window, click <uicontrol>Close</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

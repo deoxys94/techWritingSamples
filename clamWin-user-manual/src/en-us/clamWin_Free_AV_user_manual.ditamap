@@ -25,5 +25,5 @@
     <!-- Chapters or parts -->
     <chapter format="ditamap" href="maps/introduction.ditamap"></chapter>
     <chapter format="ditamap" href="maps/getting_started.ditamap"></chapter>
-    <chapter format="ditamap" href="maps/using_clamwin_antivirus.ditamap"></chapter>
+    <chapter format="ditamap" href="maps/using_clamwin_antivirus.ditamap"/>
 </bookmap>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="full_system_scan">
+    <title>Custom Scan</title>
+    <shortdesc>Scan a File, Folder, or External Drive.</shortdesc>
+    <taskbody>
+        <context id="context_lfk_1tj_4vb">
+            <note type="important">
+                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_hcd_jlj_4vb"/>
+                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_vkg_jlj_4vb"/>
+            </note>
+        </context>
+        <steps id="steps_mv4_3rj_4vb">
+            <step>
+                <cmd>Open the file explorer.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the file, folder or drive you want to scan.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click the element you want to scan.</cmd>
+            </step>
+            <step>
+                <cmd>Select <ph conkeyref="ClamWinVARS/ph_l1r_vvj_4vb"/>.</cmd>
+                <stepresult>
+                    <p><ph conkeyref="ClamWinVARS/short_product_name"/> starts scanning the selected element.</p>
+                </stepresult>
+            </step>
+            <step importance="optional">
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_ccb_5tj_4vb"/>
+            </step>
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_npz_5tj_4vb"/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

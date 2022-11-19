@@ -4,41 +4,24 @@
     <title>Scan for Virus and Malware</title>
     <shortdesc>Run manual scans to detect virus and other threats on your computer.</shortdesc>
     <conbody>
-        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> allows you to scan files and folders on your computer to detect threats such as virus and other malware.</p>
-        <p>To keep your system clean, it's recommended to run scans regularly.</p>
-        <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-                <colspec colname="c1" colnum="1" colwidth="1*"/>
-                <colspec colname="c2" colnum="2" colwidth="4*"/>
-                <thead>
-                    <row>
-                        <entry>
-                            <p>Feature</p>
-                        </entry>
-                        <entry>
-                            <p>Description</p>
-                        </entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry>
-                            <p><ph conkeyref="ClamWinVARS/av_engine_name"/> engine update</p>
-                        </entry>
-                        <entry>
-                            <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> now uses <ph conkeyref="ClamWinVARS/av_engine_name">clamav</ph> <ph conkeyref="ClamWinVARS/clamav_version">clamav_version</ph> as the antimalware engine.</p>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>
-                            <p>Bug fixes</p>
-                        </entry>
-                        <entry>
-                            <p>Fixed Virus database updates.</p>
-                        </entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
+        <note type="important">
+            <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_ms5_wgj_4vb"/>
+        </note>
+        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> allows you to scan files and folders on your computer to detect threats such as virus and other malware. To keep your system clean, it's recommended to run scans regularly.</p>
+        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> offers the following types of scan.</p>
+        <ul id="ul_dk4_vpj_4vb">
+            <li>
+                <p><xref href="full_system_scan.xml">Full system scan</xref></p>
+            </li>
+            <li>
+                <p><xref href="scan_files_folders.xml">Custom scan</xref></p>
+            </li>
+            <li>
+                <p><xref href="scan_memory_processes.xml">Computer memory scan</xref></p>
+            </li>
+            <li>
+                <p><xref href="scheduled_scan.xml">Scheduled scan</xref></p>
+            </li>
+        </ul>
     </conbody>
 </concept>

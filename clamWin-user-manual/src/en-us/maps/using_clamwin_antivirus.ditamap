@@ -4,5 +4,11 @@
     <title>Using ClamWin Antivirus</title>
     <topicref href="../topics/using_clamwin_av.xml">
         <topicref href="../topics/main_screen.xml"></topicref>
+        <topicref href="../topics/scan_computer.xml">
+            <topicref href="../topics/full_system_scan.xml"></topicref>
+            <topicref href="../topics/scan_files_folders.xml"></topicref>
+            <topicref href="../topics/scan_memory_processes.xml"></topicref>
+            <topicref href="../topics/scheduled_scan.xml"></topicref>
+        </topicref>
     </topicref>
 </map>

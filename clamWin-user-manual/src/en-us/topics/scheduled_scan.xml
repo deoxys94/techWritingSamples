@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="scheduled_scan">
+    <title>Scheduled Scan</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_bzn_rtj_4vb"/>
+            </step>
+            <step>
+                <cmd>Click <ph conkeyref="ClamWinVARS/mainui_settings"/>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

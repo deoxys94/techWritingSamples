@@ -14,6 +14,44 @@
             <step>
                 <cmd>Click <ph conkeyref="ClamWinVARS/mainui_settings"/>.</cmd>
             </step>
+            <step>
+                <cmd>In the <wintitle>ClamWin Preferences</wintitle> window, go to the <uicontrol>Scheduled Scans</uicontrol> tab.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Configure the necessary settings and click <uicontrol>OK</uicontrol>.</cmd>
+                <info>
+                    <ul id="ul_adv_jck_4vb">
+                        <li>
+                            <p><uicontrol>Scanning Frequency</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Time</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Day Of The Week</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Activate This Schedule</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Scan Programs Loaded in Computer Memory</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Scan Folder</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Description</uicontrol></p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult><ph conkeyref="ClamWinVARS/short_product_name"/> will scan the specified folders or drives at the specified time.</stepresult>
+            </step>
         </steps>
     </taskbody>
 </task>

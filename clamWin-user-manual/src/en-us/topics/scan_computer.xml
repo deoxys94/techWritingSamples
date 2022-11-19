@@ -7,7 +7,7 @@
         <note type="important">
             <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_ms5_wgj_4vb"/>
         </note>
-        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> allows you to scan files and folders on your computer to detect threats such as virus and other malware. To keep your system clean, it's recommended to run scans regularly.</p>
+        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> allows you to scan files and folders on your computer to detect threats such as virus and other malware. To keep your system clean, it is recommended to run scans regularly.</p>
         <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> offers the following types of scan.</p>
         <ul id="ul_dk4_vpj_4vb">
             <li>

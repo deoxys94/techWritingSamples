@@ -10,5 +10,6 @@
             <topicref href="../topics/scan_memory_processes.xml"></topicref>
             <topicref href="../topics/scheduled_scan.xml"></topicref>
         </topicref>
+        <topicref href="../topics/updating_virus_database_files.xml"></topicref>
     </topicref>
 </map>

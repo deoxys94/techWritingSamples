@@ -62,19 +62,19 @@
             </row>
             <row>
               <entry>mainui_scan_files</entry>
-              <entry><ph id="mainui_scan_files"><uicontrol>Scan Selected Files for Virus</uicontrol> (<image href="../images/scan_file_button.png" width="16" id="image_tg3_syj_4vb"/>)</ph></entry>
+              <entry><ph id="mainui_scan_files"><uicontrol>Scan Selected Files for Virus</uicontrol> (<image href="../images/scan_file_button.png" width="16"/>)</ph></entry>
             </row>
             <row>
               <entry>mainui_scan_ram</entry>
-              <entry><ph id="mainui_scan_ram"><uicontrol>Scan Memory</uicontrol> (<image href="../images/scan_memory_button.png" width="16" id="image_gxn_fzj_4vb"/>)</ph></entry>
+              <entry><ph id="mainui_scan_ram"><uicontrol>Scan Memory</uicontrol> (<image href="../images/scan_memory_button.png" width="16"/>)</ph></entry>
             </row>
             <row>
               <entry>mainui_update_bd</entry>
-              <entry><ph id="mainui_update_bd"><uicontrol>Starts Internet Update</uicontrol> (<image href="../images/manual_update_button.png" width="16" id="image_wzb_jzj_4vb"/>)</ph></entry>
+              <entry><ph id="mainui_update_bd"><uicontrol>Starts Internet Update</uicontrol> (<image href="../images/manual_update_button.png" width="16"/>)</ph></entry>
             </row>
             <row>
               <entry>mainui_settings</entry>
-              <entry><ph id="mainui_settings"><uicontrol>Preferences</uicontrol> (<image href="../images/settings_button.png" width="16" id="image_jvb_c1k_4vb"/>)</ph></entry>
+              <entry><ph id="mainui_settings"><uicontrol>Preferences</uicontrol> (<image href="../images/settings_button.png" width="16"/>)</ph></entry>
             </row>
           </tbody>
         </tgroup>

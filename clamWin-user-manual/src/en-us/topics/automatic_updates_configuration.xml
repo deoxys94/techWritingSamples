@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="automatic_updates_configuration">
+    <title>Automatic Updates Configuration</title>
+    <shortdesc>Configure <ph conkeyref="ClamWinVARS/short_product_name"/>'s database update schedule and other related settings.</shortdesc>
+    <taskbody>
+        <steps id="steps_w2f_hcm_4vb">
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_bzn_rtj_4vb"/>
+            </step>
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_cdp_zjm_4vb"/>
+            </step>
+            <step>
+                <cmd>In the <wintitle>ClamWin Preferences</wintitle> window, go to the <uicontrol>Internet Updates</uicontrol> tab.</cmd>
+            </step>
+            <step>
+                <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_xt5_dkm_4vb"/>
+                <info>
+                    <table frame="all" rowsep="1" colsep="1" id="table_pv2_j2m_4vb">
+                        <tgroup cols="2">
+                            <colspec colname="c1" colnum="1" colwidth="1*"/>
+                            <colspec colname="c2" colnum="2" colwidth="3*"/>
+                            <thead>
+                                <row>
+                                    <entry>
+                                        <p>Setting</p>
+                                    </entry>
+                                    <entry>
+                                        <p>Description</p>
+                                    </entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Enable Automatic Virus Database Updates</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Enables or disables automatic database updates.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Download Site</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Defines the website <ph conkeyref="ClamWinVARS/short_product_name"/> uses to retrieve the latest database updates.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Update Frequency</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Defines the update frequency. Available options:</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Time</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Defines at what time <ph conkeyref="ClamWinVARS/short_product_name"/> downloads database updates from the internet.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Day Of The Week</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Allows you to define which day of the week to download database updates if the update frequency is set to <uicontrol>xxxx</uicontrol>.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Warn if Virus database is Out of Date</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>If enabled, <ph conkeyref="ClamWinVARS/short_product_name"/> displays an alert every time the virus database is out of date.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Update Virus Database On Logon</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Automatically updates the virus database every time you log in.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Notify About New </uicontrol><ph conkeyref="ClamWinVARS/short_product_name"/><uicontrol> Releases</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Displays a notification every time there's a new <ph conkeyref="ClamWinVARS/short_product_name"/> release.</p>
+                                        <note>
+                                            <p>No personal information is shared during this check.</p>
+                                        </note>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

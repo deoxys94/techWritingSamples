@@ -2,7 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="whats_new">
     <title>What's New?</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Learn about the new features in <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph>
+        <ph conkeyref="ClamWinVARS/clamwin_version">version</ph>.</shortdesc>
     <conbody>
         <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph>
             <ph conkeyref="ClamWinVARS/clamwin_version">version</ph> includes the following new features and enhancements.</p>

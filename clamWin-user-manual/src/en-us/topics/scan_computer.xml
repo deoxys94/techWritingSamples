@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="scanning_for_malware">
+<concept id="scan_computer">
     <title>Scan for Virus and Malware</title>
     <shortdesc>Run manual scans to detect virus and other threats on your computer.</shortdesc>
     <conbody>

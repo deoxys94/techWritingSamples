@@ -9,7 +9,12 @@
             <topicref href="../topics/scan_files_folders.xml"></topicref>
             <topicref href="../topics/scan_memory_processes.xml"></topicref>
             <topicref href="../topics/scheduled_scan.xml"></topicref>
+            <topicref href="../topics/scanning_configuration.xml"></topicref>
         </topicref>
-        <topicref href="../topics/updating_virus_database_files.xml"></topicref>
+        <topicref href="../topics/updating_virus_database_files.xml">
+            <topicref href="../topics/automatic_updates_configuration.xml"></topicref>
+            <topicref href="../topics/configuring_proxy_settings.xml"></topicref>
+        </topicref>
+        <topicref href="../topics/reports.xml"></topicref>
     </topicref>
 </map>

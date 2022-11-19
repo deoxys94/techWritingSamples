@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="scheduled_scan">
-    <title>Scheduled Scan</title>
-    <shortdesc>Schedule a custom scan to run on the times you choose.</shortdesc>
+<task id="configuring_proxy">
+    <title>Proxy Server Configuration</title>
+    <shortdesc>Configure <ph conkeyref="ClamWinVARS/short_product_name"/> if you connect to the internet using a proxy server.</shortdesc>
     <taskbody>
         <context/>
         <steps>
@@ -13,10 +13,7 @@
                 <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_cdp_zjm_4vb"/>
             </step>
             <step>
-                <cmd>In the <wintitle>ClamWin Preferences</wintitle> window, go to the <uicontrol>Scheduled Scans</uicontrol> tab.</cmd>
-            </step>
-            <step>
-                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <cmd>In the <wintitle>ClamWin Preferences</wintitle> window, go to the <uicontrol>Proxy</uicontrol> tab.</cmd>
             </step>
             <step>
                 <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_xt5_dkm_4vb"/>
@@ -38,43 +35,25 @@
                             <tbody>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Scanning Frequency</uicontrol></p>
+                                        <p><uicontrol>Proxy Server</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Time</uicontrol></p>
+                                        <p><uicontrol>Port</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Day Of The Week</uicontrol></p>
+                                        <p><uicontrol>User Name</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Activate This Schedule</uicontrol></p>
-                                    </entry>
-                                    <entry/>
-                                </row>
-                                <row>
-                                    <entry>
-                                        <p><uicontrol>Scan Programs Loaded in Computer Memory</uicontrol></p>
-                                    </entry>
-                                    <entry/>
-                                </row>
-                                <row>
-                                    <entry>
-                                        <p><uicontrol>Scan Folder</uicontrol></p>
-                                    </entry>
-                                    <entry/>
-                                </row>
-                                <row>
-                                    <entry>
-                                        <p><uicontrol>Description</uicontrol></p>
+                                        <p><uicontrol>Password</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
@@ -82,10 +61,6 @@
                         </tgroup>
                     </table>
                 </info>
-            </step>
-            <step>
-                <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
-                <stepresult><ph conkeyref="ClamWinVARS/short_product_name"/> will scan the specified folders or drives at the specified time.</stepresult>
             </step>
         </steps>
     </taskbody>

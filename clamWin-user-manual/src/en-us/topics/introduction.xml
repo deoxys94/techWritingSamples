@@ -2,9 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 
 <concept id="Introduction" xml:lang="en-us">
- <title>Introduction</title>
+ <title>Introduction and Getting Started</title>
+ <shortdesc>Learn about <ph conkeyref="ClamWinVARS/full_product_name"/>' features and benefits.</shortdesc>
  <conbody>
-  <p><ph conkeyref="ClamWinVARS/full_product_name"/> is a free and open source anti-virus solution for Microsoft Windows. <ph conkeyref="ClamWinVARS/full_product_name"/> uses the <ph conkeyref="ClamWinVARS/av_engine_name"/> engine to provide malware detection capabilities without affecting system performance.</p>
+  <p><ph conkeyref="ClamWinVARS/full_product_name"/> is a free and open source anti-virus scanner for Microsoft Windows. <ph conkeyref="ClamWinVARS/full_product_name"/> uses the <ph conkeyref="ClamWinVARS/av_engine_name"/> engine to provide malware detection capabilities without affecting system performance.</p>
   <note type="important">
    <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_ms5_wgj_4vb"/>
   </note>

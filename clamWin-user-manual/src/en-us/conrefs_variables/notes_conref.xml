@@ -8,11 +8,14 @@
             <p id="p_ms5_wgj_4vb"><ph conkeyref="ClamWinVARS/short_product_name"/> Antivirus does not include real-time monitoring. You need to <b>manually</b> scan files and folders to detect threats.</p>
         </note>
         <note>
-            <p id="p_hcd_jlj_4vb">By default, <ph conkeyref="ClamWinVARS/short_product_name"/> does not clean any virus or malware found during a scan.</p>
-            <p id="p_vkg_jlj_4vb">For more information, see [link to settings]</p>
+            <p id="p_hcd_jlj_4vb">By default, <ph conkeyref="ClamWinVARS/short_product_name"/> does not clean any virus or malware found during a scan. </p>
+            <p id="p_vkg_jlj_4vb">For more information, see <xref href="../topics/scanning_configuration.xml"/></p>
         </note>
         <note>
             <p id="p_k2x_4rj_4vb">Windows is typically installed in the C: drive.</p>
+        </note>
+        <note>
+            <p id="p_bxd_kql_4vb">If you connect to the internet using a proxy, you need to configure proxy settings before updating the virus database files. For more information, see <xref href="../topics/configuring_proxy_settings.xml"/>.</p>
         </note>
     </conbody>
 </concept>

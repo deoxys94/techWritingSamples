@@ -2,6 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="main_screen">
     <title>Main Screen</title>
+    <shortdesc>View all the commands available in <ph conkeyref="ClamWinVARS/short_product_name"/>'s main screen</shortdesc>
     <conbody>
         <p>The main screen allows you to perform system scans, run virus database updates, and configure settings such as scheduled virus scans.</p>
         <fig>
@@ -26,13 +27,17 @@
                 <tbody>
                     <row>
                         <entry><p>Update virus database files</p></entry>
-                        <entry><p>Click <ph conkeyref="ClamWinVARS/mainui_update_bd"/> to manually update <ph conkeyref="ClamWinVARS/short_product_name"/>'s virus database files.</p>
-                        <p>For more information see (link to topic)</p></entry>
+                        <entry>
+                            <p conref="../conrefs_variables/scan_conref.xml#scan_conref/p_dcs_hrl_4vb"/>
+                            <note>
+                                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_bxd_kql_4vb"/>
+                            </note>
+                        <p>For more information see <xref href="updating_virus_database_files.xml"/>.</p></entry>
                     </row>
                     <row>
                         <entry><p>Scan for virus and malware</p></entry>
                         <entry>
-                            <note type="important">
+                            <note type="note">
                                 <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_hcd_jlj_4vb"/>
                                 <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_vkg_jlj_4vb"/>
                             </note>

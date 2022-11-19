@@ -2,6 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="getting_started">
     <title>Getting Started</title>
+    <shortdesc>Learn how to install, configure and update <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph>
+        <ph conkeyref="ClamWinVARS/clamwin_version">version</ph>.</shortdesc>
     <taskbody>
         <steps id="steps_mqx_dpk_nvb">
             <step>
@@ -18,9 +20,15 @@
             </step>
             <step>
                 <cmd>Update the virus database.</cmd>
+                <info>
+                    <p>For more information, see <xref href="updating_virus_database_files.xml"/>.</p>
+                </info>
             </step>
             <step>
                 <cmd>(Optional) Configure scheduled virus scans.</cmd>
+                <info>
+                    <p>For more information, see <xref href="scheduled_scan.xml"/>.</p>
+                </info>
             </step>
         </steps>
     </taskbody>

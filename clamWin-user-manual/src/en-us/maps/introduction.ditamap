@@ -5,5 +5,9 @@
     <topicref href="../topics/introduction.xml">
         <topicref href="../topics/whats_new.xml"></topicref>
         <topicref href="../topics/system_requirements.xml"></topicref>
+        
+        <topicref href="../topics/getting_started.xml">
+            <topicref href="../topics/installation.xml"></topicref>
+        </topicref>
     </topicref>
 </map>

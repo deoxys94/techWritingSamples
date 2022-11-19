@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="full_system_scan">
+<task id="scan_memory_processes">
     <title>Memory Scan</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Scan all the active processes in your computer to verify if malware is executing.</shortdesc>
     <taskbody>
         <context id="context_lfk_1tj_4vb">
-            <note type="important">
+            <note type="note">
                 <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_hcd_jlj_4vb"/>
                 <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_vkg_jlj_4vb"/>
             </note>

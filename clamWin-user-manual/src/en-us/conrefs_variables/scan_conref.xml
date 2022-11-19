@@ -4,18 +4,27 @@
     <title>Scan Conref</title>
     <shortdesc></shortdesc>
     <taskbody>
-        <context>
-            <p></p>
+        <context id="context_bk3_drl_4vb">
+            <p id="p_dcs_hrl_4vb">Click <ph conkeyref="ClamWinVARS/mainui_update_bd"/> to update <ph conkeyref="ClamWinVARS/short_product_name"/>'s virus database files.</p>
         </context>
         <steps>
             <step id="step_ksy_qtj_4vb">
-                <cmd id="cmd_bzn_rtj_4vb">Open <ph conkeyref="ClamWinVARS/short_product_name"/></cmd>
+                <cmd id="cmd_bzn_rtj_4vb">Open <ph conkeyref="ClamWinVARS/short_product_name"/>.</cmd>
             </step>
             <step>
                 <cmd id="cmd_ccb_5tj_4vb">Save the scan results to a text file by clicking <uicontrol>Save Report</uicontrol> in the <wintitle>Scan Complete</wintitle> window.</cmd>
             </step>
             <step>
                 <cmd id="cmd_npz_5tj_4vb">In the <wintitle>Scan Complete</wintitle> window, click <uicontrol>Close</uicontrol>.</cmd>
+                <info>
+                    <draft-comment>Updating database conref</draft-comment>
+                </info>
+            </step>
+            <step>
+                <cmd id="cmd_cdp_zjm_4vb">Click <ph conkeyref="ClamWinVARS/mainui_settings"/>.</cmd>
+            </step>
+            <step>
+                <cmd id="cmd_xt5_dkm_4vb">Configure the necessary settings and click <uicontrol>OK</uicontrol>.</cmd>
             </step>
         </steps>
     </taskbody>

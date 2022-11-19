@@ -2,10 +2,10 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="full_system_scan">
     <title>Full System Scan</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Verify if your computer is infected by malware.</shortdesc>
     <taskbody>
         <context id="context_lfk_1tj_4vb">
-            <note type="important">
+            <note type="note">
                 <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_hcd_jlj_4vb"/>
                 <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_vkg_jlj_4vb"/>
             </note>

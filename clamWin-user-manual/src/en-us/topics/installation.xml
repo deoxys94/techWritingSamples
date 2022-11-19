@@ -3,7 +3,8 @@
 <task id="installation">
     <title>Installation</title>
     <taskbody>
-        <context id="context_ny2_45n_nvb"/>
+        <context id="context_ny2_45n_nvb">Install <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph>
+            <ph conkeyref="ClamWinVARS/clamwin_version">version</ph> in your computer.</context>
         <steps id="steps_pj4_trn_nvb">
             <step>
                 <cmd>Download the installer program at <xref href="https://clamwin.com/content/view/18/46/" format="html" scope="external">https://clamwin.com/content/view/18/46/</xref>.</cmd>
@@ -47,10 +48,10 @@
                         </info>
                     </substep>
                     <substep>
-                        <cmd>In the <wintitle>Select Additional Tasks</wintitle> screen, select <uicontrol>Download Virus Database Files</uicontrol> and click <uicontrol>Next</uicontrol>.</cmd>
+                        <cmd>If you do not use a proxy to connect to the internet, select <uicontrol>Download Virus Database Files</uicontrol> in the <wintitle>Select Additional Tasks</wintitle> screen and click <uicontrol>Next</uicontrol>.</cmd>
                         <info>
                             <note type="important">
-                                <p>If you connect to the internet using a proxy, do not select <uicontrol>Download Virus Database Files</uicontrol>.</p>
+                                <p conref="../conrefs_variables/notes_conref.xml#notes_conref/p_bxd_kql_4vb"/>
                             </note>
                         </info>
                     </substep>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="scheduled_scan">
-    <title>Scheduled Scan</title>
-    <shortdesc>Schedule a custom scan to run on the times you choose.</shortdesc>
+<task id="scanning_configuration">
+    <title>Scanning Configuration</title>
+    <shortdesc>Configure what <ph conkeyref="ClamWinVARS/short_product_name"/> should do when scanning and detecting threats.</shortdesc>
     <taskbody>
         <context/>
         <steps>
@@ -11,12 +11,6 @@
             </step>
             <step>
                 <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_cdp_zjm_4vb"/>
-            </step>
-            <step>
-                <cmd>In the <wintitle>ClamWin Preferences</wintitle> window, go to the <uicontrol>Scheduled Scans</uicontrol> tab.</cmd>
-            </step>
-            <step>
-                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd conref="../conrefs_variables/scan_conref.xml#scan_conref/cmd_xt5_dkm_4vb"/>
@@ -37,44 +31,58 @@
                             </thead>
                             <tbody>
                                 <row>
+                                    <entry namest="c1" nameend="c2" align="center">
+                                        <p><uicontrol>Scanning Options</uicontrol></p>
+                                    </entry>
+                                </row>
+                                <row>
                                     <entry>
-                                        <p><uicontrol>Scanning Frequency</uicontrol></p>
+                                        <p><uicontrol>Display Infected Files Only</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Time</uicontrol></p>
+                                        <p><uicontrol>Scan in Subdirectories</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Day Of The Week</uicontrol></p>
+                                        <p><uicontrol>Display File Scanned &#37; Progress Indicator</uicontrol></p>
+                                    </entry>
+                                    <entry/>
+                                </row>
+                                <row>
+                                    <entry namest="c1" nameend="c2" align="center">
+                                        <p><uicontrol>Infected Files</uicontrol></p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Report Only</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Activate This Schedule</uicontrol></p>
+                                        <p><uicontrol>Remove</uicontrol></p>
+                                    </entry>
+                                    <entry>
+                                        <note type="warning">
+                                            <p>Removing infected files can lead to information loss and system instability.</p>
+                                        </note>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><uicontrol>Move To Quarantine Folder</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
                                 <row>
                                     <entry>
-                                        <p><uicontrol>Scan Programs Loaded in Computer Memory</uicontrol></p>
-                                    </entry>
-                                    <entry/>
-                                </row>
-                                <row>
-                                    <entry>
-                                        <p><uicontrol>Scan Folder</uicontrol></p>
-                                    </entry>
-                                    <entry/>
-                                </row>
-                                <row>
-                                    <entry>
-                                        <p><uicontrol>Description</uicontrol></p>
+                                        <p><uicontrol>Unload Infected Programs From Computer Memory</uicontrol></p>
                                     </entry>
                                     <entry/>
                                 </row>
@@ -82,10 +90,6 @@
                         </tgroup>
                     </table>
                 </info>
-            </step>
-            <step>
-                <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
-                <stepresult><ph conkeyref="ClamWinVARS/short_product_name"/> will scan the specified folders or drives at the specified time.</stepresult>
             </step>
         </steps>
     </taskbody>

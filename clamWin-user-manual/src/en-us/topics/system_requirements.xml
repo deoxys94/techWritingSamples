@@ -3,6 +3,8 @@
 
 <concept id="system_requirements" xml:lang="en-us">
  <title>System Requirements</title>
+ <shortdesc>Verify your system meets the requirements to install <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph>
+  <ph conkeyref="ClamWinVARS/clamwin_version">version</ph>.</shortdesc>
  <conbody>
   <table frame="all" rowsep="1" colsep="1" id="table_edr_zmk_nvb">
    <tgroup cols="2">

@@ -37,25 +37,25 @@
                                     <entry>
                                         <p><uicontrol>Proxy Server</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>IP or FDQN of the proxy server</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Port</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Port used to establish connection to the proxy server</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>User Name</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>User name of the proxy server</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Password</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Password of the proxy server</p></entry>
                                 </row>
                             </tbody>
                         </tgroup>

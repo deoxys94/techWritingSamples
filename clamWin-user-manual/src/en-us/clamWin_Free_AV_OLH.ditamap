@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>ClamWin Free Antivirus User Manual</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <authorinformation>
+            <personinfo>
+                <namedetails>
+                    <personname>
+                        <firstname>Aldair</firstname>
+                        <lastname>Torres</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+        </authorinformation>
+    </bookmeta>
+    <frontmatter>
+        <!-- Key definitions -->
+        <keydef keys="ClamWinVARS" href="conrefs_variables/clamWin_variables.xml"></keydef>
+        <!-- License and other things -->
+        <notices href="/additional/docLicense/pdf_creativeCommons_en_boilerplate.xml"></notices>
+    </frontmatter>
+    <!-- Chapters or parts -->
+    <chapter format="ditamap" href="maps/introduction.ditamap"></chapter>
+    <chapter format="ditamap" href="maps/using_clamwin_antivirus.ditamap"/>
+</bookmap>

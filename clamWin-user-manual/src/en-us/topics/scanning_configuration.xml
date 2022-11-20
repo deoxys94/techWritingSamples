@@ -39,19 +39,26 @@
                                     <entry>
                                         <p><uicontrol>Display Infected Files Only</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>If selected, <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> only displays infected files in the scan progress window.</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Scan in Subdirectories</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry>
+                                        <p>Allows <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> to scan all nested folders and files.</p>
+                                        <note type="important">
+                                            <p>When disabled, <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> may not scan all files inside a folder or drive.</p>
+                                        </note>
+                                    </entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Display File Scanned &#37; Progress Indicator</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry>
+                                        <p>If selected, <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> displays a progress indicator.</p>
+                                    </entry>
                                 </row>
                                 <row>
                                     <entry namest="c1" nameend="c2" align="center">
@@ -62,15 +69,18 @@
                                     <entry>
                                         <p><uicontrol>Report Only</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry>
+                                        <p>Default option. <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> does not take any action when finding infected files.</p>
+                                    </entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Remove</uicontrol></p>
                                     </entry>
                                     <entry>
+                                        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> deletes all infected files.</p>
                                         <note type="warning">
-                                            <p>Removing infected files can lead to information loss and system instability.</p>
+                                            <p>Removing infected files can cause permanent information loss and system instability.</p>
                                         </note>
                                     </entry>
                                 </row>
@@ -78,13 +88,15 @@
                                     <entry>
                                         <p><uicontrol>Move To Quarantine Folder</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry>
+                                        <p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> moves all infected files to the specified quarantine folder.</p>
+                                    </entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Unload Infected Programs From Computer Memory</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p><ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> attempts to terminate all malicious processes found.</p></entry>
                                 </row>
                             </tbody>
                         </tgroup>

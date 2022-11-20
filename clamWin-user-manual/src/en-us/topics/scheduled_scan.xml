@@ -40,43 +40,50 @@
                                     <entry>
                                         <p><uicontrol>Scanning Frequency</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Defines the frequency of scans. Available values:</p>
+                                    <ul>
+                                        <li><p><uicontrol>Hourly</uicontrol></p></li>
+                                        <li><p><uicontrol>Daily</uicontrol></p></li>
+                                        <li><p><uicontrol>Workdays</uicontrol></p></li>
+                                        <li><p><uicontrol>Weekly</uicontrol></p></li>
+                                    </ul>
+                                </entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Time</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Time scans run.</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Day Of The Week</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>The day scans run. Only available if you select <uicontrol>Weekly</uicontrol>.</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Activate This Schedule</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Enables or disables the scheduled scan.</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Scan Programs Loaded in Computer Memory</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>If selected, <ph conkeyref="ClamWinVARS/short_product_name">product_name</ph> scans the programs loaded in your computer memory before beginning the scheduled scan.</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Scan Folder</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Folder or drive to scan</p></entry>
                                 </row>
                                 <row>
                                     <entry>
                                         <p><uicontrol>Description</uicontrol></p>
                                     </entry>
-                                    <entry/>
+                                    <entry><p>Additional information</p></entry>
                                 </row>
                             </tbody>
                         </tgroup>

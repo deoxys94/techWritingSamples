@@ -1,0 +1,39 @@
+---
+title: "nginx"
+date: 2023-09-17
+draft: false
+---
+
+[IMPORTANT]
+====
+Solus is not a server operating system. Usage of server packages outside local testing is not recommended.
+====
+
+nginx is installed with a default configuration that you can customize as needed.
+
+== Installation
+
+To install `nginx`, use the Software Center or execute the following command:
+
+[source,bash]
+----
+sudo eopkg install nginx
+----
+
+== Usage
+
+=== Configuration
+
+Nginx's configuration files are located in the `/usr/share/defaults/nginx/` directory. To override the default configuration, you can create configuration files in the `/etc/nginx/conf.d/` or the `/etc/nginx/sites-enabled` folders.
+
+[TIP]
+====
+To revert back to the original settings, delete the `/etc/nginx/` folder.
+====
+
+=== Management
+
+You can use the following commands to manage nginx:
+
+* Enable nginx on startup and start immediately after enabling: `sudo systemctl enable --now nginx`
+* Stop nginx: `sudo systemctl stop nginx`

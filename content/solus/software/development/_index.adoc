@@ -1,0 +1,22 @@
+---
+title: "Development"
+date: 2023-09-17
+draft: false
+---
+
+Solus provides a stable foundation for creating, testing, and deploying applications.
+
+You can install tools such as text editors, programming languages, compilers, and version control systems. Solus also supports containerization and virtualization technologies.
+
+
+== Getting Started
+
+If you want to compile and develop software using Solus, we recommend installing the `system.devel` component.
+
+[source,bash]
+----
+sudo eopkg install -c system.devel
+----
+
+
+The `system.devel` component installs a set of libraries and packages needed for software development, such as `clang`, `gcc`, `make`, etcetera.

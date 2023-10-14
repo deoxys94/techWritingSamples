@@ -1,0 +1,20 @@
+---
+title: "Mouse and Touchpad Configuration"
+date: 2023-09-10
+draft: false
+---
+
+1. In the link:../open-system-settings[*System Settings*] screen, go to the appropriate configuration screen:
++
+* To configure the mouse, go to *Input Devices* > *Mouse*.
++
+
+image::../img/mouse-settings.png[Plasma mouse settings.]
+
+* To configure the touchpad, go to *Input Devices* > *Touchpad*.
++
+
+image::../img/touchpad-settings.png[Plasma touchpad settings.]
+
+2. Configure the available settings as needed.
+3. Click *Apply*.

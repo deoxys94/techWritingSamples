@@ -1,0 +1,35 @@
+---
+title: "Clamwin Free Antivirus"
+date: 2023-07-20T09:39:58+05:30
+draft: false
+---
+
+:icons: font
+ClamWin Free Antivirus is a free and open source anti-virus scanner for Microsoft Windows. ClamWin Free Antivirus uses the ClamAV engine to provide malware detection capabilities without affecting system performance.
+
+[IMPORTANT]
+====
+ClamWin Antivirus does not include real-time monitoring. You need to *manually scan* files and folders to detect threats.
+====
+
+The following table outlines the features and benefits of Clamwin Free Antivirus.
+
+[cols="1,3"]
+|===
+|Feature |Description
+
+|Antimalware
+|ClamWin Free Antivirus detects and cleans viruses, worms, trojans, mobile malware and other threats.
+
+|Regular updates
+|ClamWin Free Antivirus gets automatic virus database updates over the internet.
+
+|Microsoft Outlook Integration
+|ClamWin Free Antivirus includes a Microsoft Outlook add-on to scan incoming and outgoing email messages.
+
+|Phishing detection
+|ClamWin Free Antivirus detects suspicious hyperlinks when scanning HTML content.
+
+|Scheduled scanning
+|ClamWin Free Antivirus allows you to start system scans at a defined time.
+|===

@@ -9,6 +9,14 @@ draft: false
 Aldair's Writing Portfolio © 2023 by Aldair Torres is licensed under https://creativecommons.org/licenses/by-nc-sa/4.0/[Attribution-NonCommercial-ShareAlike 4.0 International].
 ====
 
+Hey there!
+
+Welcome to my technical writing portfolio! This website showcases my skills in writing clear, concise, and informative technical documentation.
+
+I have been a tech writer at a cybersecurity company for 3 years now, and I have worked on a wide range of projects: open source projects, network appliances, enterprise SaaS products, and API documentation.
+
+The following table describes the writing samples included in this website.
+
 == Table of Contents
 
 [cols="1,3"]
@@ -21,3 +29,28 @@ Aldair's Writing Portfolio © 2023 by Aldair Torres is licensed under https://cr
 |Clamwin
 |Unofficial documentation of the ClamWin antivirus.
 |===
+
+== Writing Philosophy
+
+My approach to technical writing is guided by the principles of structured authoring. This means I focus on:
+
+- *Content Re-use*: I create content that can be used and repurposed across various contexts. This enhances efficiency and ensures consistency.
+
+- *Consistent Structure*: Each piece is meticulously organized with a clear and logical flow, making it easy for readers to navigate and understand.
+
+- *Chunked Information*: I break down complex concepts into smaller, manageable chunks. This allows readers to absorb information in a more digestible manner.
+
+- *Specialized Topics*: Whether it's a task-oriented guide or a conceptual overview, I tailor the content to suit the specific needs of the audience.
+
+== Tools
+All the writing samples, including this page, are written in AsciiDocs. To build this website, I used:
+
+* https://gohugo.io[Hugo]
+* https://geekdocs.de[Geekdoc Theme]
+* https://asciidoctor.org/[AsciiDoctor]
+
+## Get in Touch!
+
+Feel free to dive in and explore the various samples I've selected. If you find something that resonates with you, https://www.linkedin.com/in/aldair-torres-aguilar/[feel free to reach out using Linkedin]. I'm always open to collaboration and feedback.
+
+Thank you for visiting!

@@ -3,7 +3,7 @@
     <div>
       <section class="flex flex-wrap align-center">
         <span class="gdoc-footer__item gdoc-footer__item--row">
-          <a href="http://aldair.com.mx/portfolio">Aldair's Writing Portfolio</a> by <a href="https://github.com/deoxys94">Aldair Torres</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+          {{ i18n "footer_build_with" | safeHTML }}
         </span>
         {{ with .Site.Params.geekdocLegalNotice }}
           <span class="gdoc-footer__item gdoc-footer__item--row">

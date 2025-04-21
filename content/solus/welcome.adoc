@@ -1,0 +1,47 @@
+---
+title: "Welcome"
+date: 2025-04-20T09:39:58+05:30
+draft: false
+weight: 0
+---
+
+:icons: font
+
+= Welcome
+
+Solus is committed to helping users get the most out of their systems. We designed the help center to introduce our ecosystem and guide you through typical tasks you might need help with.
+
+== Table of contents
+
+We organized the help center into sections to help you navigate the contents easily:
+
+[cols="1,3", options="header"]
+|===
+| Section | Description
+| Quick Start | If you're new to Solus, this section will set you on the right track. Find documentation on system requirements, installing Solus, software management, the boot process, and troubleshooting.
+| Contributing | Find how you can contribute to Solus, whether you're a beginner or an experienced Linux and Solus user.
+| Editions | Understand the different editions of Solus: differences between editions, configuration tasks, and helpful tips and tricks.
+| Hardware | Solus supports most hardware out-of-the-box, but there are exceptions. This section focuses on those exceptions and how to get the most out of your hardware.
+| Package management | Learn how to install software and manage the repositories of your Solus system.
+| Privacy policy | Understand our privacy policy: Learn how we handle your data, and how to contact us for privacy concerns.
+| Software | Getting started and configuration guides for the software packages included in Solus.
+| Troubleshooting | Learn how to diagnose and fix problems you might have with Solus.
+|===
+
+== Support channels
+
+If you need help with something not covered in the help center, there are various channels where you can seek support from the Solus team or other Solus users:
+
+[cols="1,3", options="header"]
+|===
+| Channel | Description
+| link:https://discuss.getsol.us[Forums] | Our Flarum-powered forums are easy to use from any device and are a great resource for getting support.
+| link:https://matrix.to/#/#solus:matrix.org[Matrix] | Matrix is a great way to discuss issues and development in real-time. Learn how to access Solus' Matrix space link:/docs/user/contributing/getting-involved.md#matrix-chat[here].
+| link:https://www.reddit.com/r/SolusProject[Reddit] | If you are a Redditor, our subreddit has a similar purpose to the forums.
+| link:https://issues.getsol.us[Issue tracker] | If you have issues with your Solus system, or any of our software packages doesn't work as expected, consider filing a bug report on our issue tracker.
+|===
+
+[IMPORTANT]
+====
+Volunteers around the world build and maintain Solus. Due to time zone differences there might not always be people to answer your questions immediately.
+====

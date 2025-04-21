@@ -35,3 +35,6 @@ enableRobotsTXT = true
 
 [security.exec]
     allow = ['^asciidoctor$']
+
+[params]
+    geekdocCollapseAllSections = true

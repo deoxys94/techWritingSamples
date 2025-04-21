@@ -1,0 +1,170 @@
+/* Global customization */
+
+:root {
+  --code-max-height: 60rem;
+}
+
+/* Light mode theming */
+:root,
+:root[color-theme="light"] {
+  /* Header: White background, dark text */
+  --header-background: #ffffff;
+  --header-font-color: #1f2937; /* Dark grey/black */
+
+  /* Body: White background, dark text */
+  --body-background: #ffffff;
+  --body-font-color: #374151; /* Slightly lighter dark grey */
+
+  /* Mark color: Keep original yellow? Or use a blue accent? Let's keep yellow for now */
+  --mark-color: #ffab00;
+
+  /* Buttons: Use the primary blue */
+  --button-background: #3b82f6; /* Blue */
+  --button-border-color: #2563eb; /* Darker blue */
+
+  /* Links: Blue */
+  --link-color: #3056d5;
+  --link-color-visited: #212d63; /* Purple for visited (example) */
+
+  /* Code Blocks: Light grey background */
+  --code-background: #212d63; /* Light grey */
+  --code-accent-color: #e5e7eb; /* Slightly darker grey */
+  --code-accent-color-lite: #f9fafb; /* Very light grey/off-white */
+  --code-font-color: #ced4da; /* Dark grey text */
+
+  /* Code Copy Button */
+  --code-copy-background: #f3f4f6;
+  --code-copy-font-color: #6b7784; /* Medium grey */
+  --code-copy-border-color: #d1d5db; /* Grey border */
+  --code-copy-success-color: #10b981; /* Green for success */
+
+  /* Accent Colors: Used for sidebars, cards, etc. */
+  --accent-color: #e5e7eb; /* Very light grey (like sidebar) */
+  --accent-color-lite: #f9f9f9; /* White (like cards) */
+
+  /* Control Icons: Top right icons */
+  --control-icons: #6b7784; /* Medium grey */
+
+  /* Footer: Keep original dark footer */
+  --footer-background: #212d63;
+  --footer-font-color: #ffffff;
+  --footer-link-color: #60a5fa;
+  --footer-link-color-visited: #a78bfa;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-background: #ffffff;
+    --header-font-color: #1f2937;
+    --border-color: #e9ecef;
+    --body-background: #ffffff;
+    --body-font-color: #374151;
+    --mark-color: #ffab00;
+    --button-background: #3b82f6;
+    --button-border-color: #2563eb;
+    --link-color: #3b82f6;
+    --link-color-visited: #8b5cf6;
+    --code-background: #f3f4f6;
+    --code-accent-color: #e5e7eb;
+    --code-accent-color-lite: #f9fafb;
+    --code-font-color: #374151;
+    --code-copy-background: #f3f4f6;
+    --code-copy-font-color: #6b7784;
+    --code-copy-border-color: #d1d5db;
+    --code-copy-success-color: #10b981;
+    --accent-color: #e5e7eb;
+    --accent-color-lite: #f9f9f9;
+    --control-icons: #6b7784;
+    --footer-background: #ffffff;
+    --footer-font-color: #ffffff;
+  --footer-link-color: #60a5fa;
+  --footer-link-color-visited: #a78bfa;
+  }
+}
+
+/* Dark mode theming */
+:root[color-theme="dark"] {
+  /* Header: Dark background, light text */
+  --header-background: #181922; /* Dark grey */
+  --header-font-color: #f9fafb; /* Off-white */
+
+  /* Body: Very dark background, light grey text */
+  --body-background: #181921; /* Very dark blue/grey */
+  --body-font-color: #d1d5db; /* Light grey */
+
+  /* Mark color: Keep original yellow */
+  --mark-color: #ffab00;
+
+  /* Buttons: Use the primary blue (same as light mode for consistency?) */
+  --button-background: #3b82f6;
+  --button-border-color: #2563eb;
+
+  /* Links: Lighter blue */
+  --link-color: #60a5fa; /* Light blue */
+  --link-color-visited: #a78bfa; /* Light purple for visited (example) */
+
+  /* Code Blocks: Dark grey background */
+  --code-background: #212529; /* Dark grey */
+  --code-accent-color: #374151; /* Medium dark grey */
+  --code-accent-color-lite: #4b5563; /* Slightly lighter dark grey */
+  --code-font-color: #d1d5db; /* Light grey text */
+
+  /* Code Copy Button */
+  --code-copy-background: #1f2937;
+  --code-copy-font-color: #9ca3af; /* Medium light grey */
+  --code-copy-border-color: #4b5563; /* Grey border */
+  --code-copy-success-color: #34d399; /* Lighter green for success */
+
+  /* Accent Colors: Used for sidebars, cards, etc. */
+  --accent-color: #374151; /* Medium dark grey (like sidebar) */
+  --accent-color-lite: #20222c; /* Dark grey (like cards) */
+
+  /* Control Icons: Top right icons */
+  --control-icons: #9ca3af; /* Medium light grey */
+
+  /* Footer: Keep original dark footer */
+  --footer-background: #181922;
+  --footer-font-color: #ffffff;
+  --footer-link-color: #60a5fa;
+  --footer-link-color-visited: #a78bfa;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-background: #181922;
+    --border-color: #212529;
+    --header-font-color: #f9fafb;
+    --body-background: #181921;
+    --body-font-color: #d1d5db;
+    --mark-color: #ffab00;
+    --button-background: #3b82f6;
+    --button-border-color: #2563eb;
+    --link-color: #60a5fa;
+    --link-color-visited: #a78bfa;
+    --code-background: #212529;
+    --code-accent-color: #374151;
+    --code-accent-color-lite: #4b5563;
+    --code-font-color: #d1d5db;
+    --code-copy-background: #1f2937;
+    --code-copy-font-color: #9ca3af;
+    --code-copy-border-color: #4b5563;
+    --code-copy-success-color: #34d399;
+    --accent-color: #374151;
+    --accent-color-lite: #20222c;
+    --control-icons: #9ca3af;
+    --footer-background: #181922;
+    --footer-font-color: #ffffff;
+    --footer-link-color: #60a5fa;
+    --footer-link-color-visited: #a78bfa;
+  }
+}
+
+.gdoc-header {
+  border-bottom: .1em solid var(--border-color);
+}
+
+.gdoc-nav__entry.is-active {
+  color: var(--link-color);
+}
+
+.gdoc-search__input {
+  border: .1em solid #e9ecef;
+}

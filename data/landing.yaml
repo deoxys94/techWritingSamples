@@ -1,0 +1,119 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+intro:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "Aldair Torres"
+  subtitle: Technical and UX writer
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "hero_image_1.webp" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "See writing samples"
+    url: "/docs/"
+  cta2Button:
+    icon: construction
+    btnText: "Request more samples"
+    url: "https://www.linkedin.com/in/aldair-torres-aguilar"
+
+aboutMe:
+  weight: 20
+  enable: true
+  template: image text
+
+  title: "About me"
+  subtitle: |
+    Welcome! I'm a Technical and UX Writer with over 4 years of experience specializing in creating clear, user-centered documentation and effective UX copy for complex cybersecurity systems (SaaS and on-premises). I excel at simplifying intricate technical concepts for diverse audiences, from end-users to developers.
+
+    My background includes leading documentation for enterprise security products, developing comprehensive API documentation using Docs-as-Code workflows, and enhancing user experience through precise UI text. I'm passionate about leveraging technology to improve documentation quality and efficiency, including automation and AI integration.
+
+  image:
+    path: "images"
+    filename: "profile_picture.webp"
+    alt: "Profile picture"
+
+# Feature Grid.
+approachToContent:
+  enable: true
+  weight: 30
+  template: feature grid
+
+  title: My approach to content
+  subtitle: "My approach ensures documentation is not just accurate, but truly usable and effective: "
+
+  items:
+    - title: User-Centricity
+      icon: person
+      description: I tailor content to meet specific audience needs and goals.
+
+    - title: Structured Authoring
+      icon: menu_book
+      description: I leverage structured authoring principles and tools like DITA XML and AsciiDoc for consistency, scalability, and efficient content reuse across multiple outputs.
+
+    - title: Clarity & Conciseness
+      icon: widgets
+      description: Complex information is broken down into digestible chunks with a logical flow, making it easy to understand and act upon.
+
+    - title: Docs-as-Code
+      icon: code
+      description: I integrate documentation into development workflows using tools like Git, Go, TypeScript, and CI/CD pipelines for validation and automation.
+
+skillsTools:
+  weight: 40
+  enable: true
+  template: image text
+
+  title: "Skills & Tools"
+  subtitle: |
+    I utilize a range of industry-standard tools and methodologies:
+
+    - **Authoring & Standards**: DITA XML, Markdown, AsciiDoc, OpenAPI/Swagger, LaTeX
+    - **Writing & Editing Tools**: OxygenXML, XMLmind DITA Converter, Vale.sh
+    - **Collaboration & Workflow**: Git, Jira, Confluence, Figma
+    - **Automation & Development**: GitHub Actions (CI/CD), Go, TypeScript/JavaScript (for scripting/tooling)
+    - **Domain Knowledge**: Cybersecurity (XDR, Network Security, Cloud Security)
+    - **Methodologies**: Docs-as-Code, Agile/SCRUM, Information Architecture, Content Design
+  image:
+    path: "images"
+    filename: "oxygen_screenshot.webp"
+    alt: "Tools I use to author content."
+
+keyHighlights:
+  enable: true
+  weight: 50
+  template: feature grid
+
+  title: Key highlights
+  items:
+    - title: Leadership
+      icon: tactic
+      description: Guided the successful integration of Large Language Models (LLMs) into the technical writing workflow and trained 14 writers on effective prompt engineering techniques
+
+    - title: Automation & Efficiency
+      icon: precision_manufacturing
+      description: Developed automation tools saving the writing team up to 60% time on routine tasks.
+
+    - title: Peer & Management Recognition
+      icon: social_leaderboard
+      description: Received Trend Micro's Employee of the Quarter (Q4 2023) and Manager Award (Q2 2023) for leadership on key projects (XDR, AI) and technical contributions.

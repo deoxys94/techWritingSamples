@@ -1,0 +1,44 @@
+baseURL: https://aldair.com.mx/portfolio
+languageCode: en-us
+title: Aldair's tech writing portfolio
+
+module:
+  replacements: github.com/colinwilson/lotusdocs -> lotusdocs
+  imports:
+    - path: github.com/colinwilson/lotusdocs
+      disable: false
+    - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
+      disable: false
+
+params:
+  footer:
+    copyright: "© 2025 Aldair's tech writing portfolio | Some rights reserved. [Full license details](/docs/license)"
+  google_fonts:
+    - - Inter
+      - 300, 400, 600, 700
+    - - Fira Code
+      - 500, 700
+  sans_serif_font: Inter
+  secondary_font: Inter
+  mono_font: Fira Code
+  social: 
+    github: "deoxys94"
+    linkedin: "aldair-torres-aguilar"
+  docs:
+    sidebarIcons: true
+    descriptions: true
+    darkMode: true
+    themeColor: cardinal
+
+menu:
+  primary:
+    - name: Writing samples
+      url: docs/
+      identifier: docs
+      weight: 10
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true

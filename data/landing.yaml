@@ -35,7 +35,7 @@ intro:
   cta2Button:
     icon: mail
     btnText: "Request more samples"
-    url: "https://www.linkedin.com/in/aldair-torres-aguilar"
+    url: "./docs/contact/"
 
 aboutMe:
   weight: 20

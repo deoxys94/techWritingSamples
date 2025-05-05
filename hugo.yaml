@@ -1,6 +1,6 @@
 baseURL: https://aldair.com.mx/portfolio
 languageCode: en-us
-title: Aldair's tech writing portfolio
+title: Aldair writing portfolio
 
 module:
   replacements: github.com/colinwilson/lotusdocs -> lotusdocs
@@ -12,7 +12,7 @@ module:
 
 params:
   footer:
-    copyright: "© 2025 Aldair's tech writing portfolio | Some rights reserved. [Full license details](/docs/license)"
+    copyright: "© 2025 Aldair tech writing portfolio | Some rights reserved. [Full license details](/docs/license)"
   google_fonts:
     - - Inter
       - 300, 400, 600, 700

@@ -29,11 +29,11 @@ intro:
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
-    icon: rocket_launch
+    icon: article
     btnText: "See writing samples"
-    url: "/docs/"
+    url: "./docs/"
   cta2Button:
-    icon: construction
+    icon: mail
     btnText: "Request more samples"
     url: "https://www.linkedin.com/in/aldair-torres-aguilar"
 

@@ -1,14 +1,15 @@
 ---
-weight: 40
-title: "Project: Automation Center Documentation (Trend Micro)"
+weight: 10
+title: "Automation Center Documentation (Trend Micro)"
 icon: "work"
 date: "2025-05-04T20:04:55+08:00"
 lastmod: "2025-05-04T20:04:55+08:00"
 draft: false
 toc: true
+images: []
 ---
 
-![Trend Vision One Automation center](./automation-center.png)
+![Trend Vision One Automation center](https://res.cloudinary.com/dttfzpzjn/image/upload/v1748596811/automation-center_fuu7pa.png)
 
 At Trend Micro, I contributed to the Automation Center (https://automation.trendmicro.com/xdr/home/), the documentation repository for Trend Vision One APIs. This platform provides developers with:
 

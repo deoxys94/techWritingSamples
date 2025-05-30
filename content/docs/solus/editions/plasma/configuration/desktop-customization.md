@@ -2,7 +2,17 @@
 title: "Desktop Customization"
 date: 2023-09-10
 draft: false
+weight: 216
+params:
+  index: false
 ---
+
+{{% alert context="info" %}}
+
+- This is not the official documentation of Solus. If you need help with Solus, go to https://help.getsol.us/
+- This documentation was originally created for the Solus Project, for which I was a contributor. The Solus Project is the sole rights holder of this work. See the [License page](/docs/license) for more information.
+
+{{% /alert %}}
 
 The **Desktop Settings** screen allows you to customize various aspects of your desktop, such as the wallpaper and the desktop icons. To open the **Desktop Settings** screen, right-click anywhere on the desktop and select **Configure Desktop and Wallpaper...**.
 

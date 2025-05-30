@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 227
 title: "Troubleshooting"
 icon: "sailing"
 date: "2025-05-04T20:04:55+08:00"

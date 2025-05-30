@@ -1,5 +1,5 @@
 ---
-weight: 30
+weight: 200
 title: "Solus - Writing samples"
 icon: "sailing"
 date: "2025-05-04T20:04:55+08:00"

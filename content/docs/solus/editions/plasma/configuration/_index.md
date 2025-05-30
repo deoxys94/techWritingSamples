@@ -1,5 +1,5 @@
 ---
-weight: 80
+weight: 206
 title: "Configuration"
 icon: "sailing"
 date: "2025-05-04T20:04:55+08:00"
